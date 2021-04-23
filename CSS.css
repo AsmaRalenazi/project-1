@@ -1,21 +1,37 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
 #a{
 padding-left:500px; 
 padding-top:150px;
 width:400px;;
 height:400px;
-
-
-
+align-items: center;
 }
+
 #sequare{
 
-    width:120px;
-    height:120px;
-    background-color: rgb(122, 70, 170);
-    margin:3px;
-    font-size:90px;
-    color:cornsilk;
-    float: left;
+ width:120px;
+ height:120px;
+ background-color: rgb(144, 175, 166);
+ margin:3px;
+ font-size:120px;
+ color:rgb(163, 133, 10);
+ float: left;
+ cursor: pointer;
+ text-align:center;
+}
+#restart{
+    padding-left:600px;
     text-align:center;
+    margin-left: 20px;
+    font-size:30px;
+    background-color:rgb(202, 204, 181);
+    display:inline;
+    color: rgb(66, 78, 75);
+    border-radius:20px;
+}
+#restart:hover{
+   background-color: rgb(163, 133, 10);
 }
 
