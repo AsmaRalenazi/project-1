@@ -1,8 +1,10 @@
 #a{
 padding-left:500px; 
 padding-top:150px;
-width:500px;;
-height:650px;;
+width:400px;;
+height:400px;
+
+
 
 }
 #sequare{
@@ -10,9 +12,12 @@ height:650px;;
     width:120px;
     height:120px;
     background-color: rgb(122, 70, 170);
-    margin:4px;
-    font-size:40px;
+    margin:3px;
+    font-size:90px;
     color:cornsilk;
     float: left;
+    text-align:center;
+    
+
 
 }
