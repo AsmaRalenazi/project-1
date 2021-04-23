@@ -3,7 +3,7 @@
 
 let x= true; // true means X turn
 let sequares=[];
-const insert =(id)=>{
+insert =(id)=>{
     let p= document.getElementById(id)
     if ( x && p.innerHTML=="" ){
         p.innerHTML="X"
@@ -13,13 +13,31 @@ const insert =(id)=>{
         p.innerHTML="O"
          x=!x
     }
+    checkWinner()
 }
-const checkWinner =()=>{
+checkWinner =()=>{
     for(let i=0; i<9 ;i++){
      sequares[i]=document.getElementById('A'+i).innerHTML;
     }
 }
+//check horizontal
 if ( sequares[1]==sequares[2] && sequares[2]==sequares[3]&&sequares[1]!="" ){
-    alert ("player "+sequares[1]+" Wins the game ")
+    alert ("player "+sequares[1]+" Wins the game")
+}
+if ( sequares[1]==sequares[2] && sequares[2]==sequares[3]&&sequares[1]!="" ){
+    alert ("player "+sequares[1]+" Wins the game")
+}
+if ( sequares[1]==sequares[2] && sequares[2]==sequares[3]&&sequares[1]!="" ){
+    alert ("player "+sequares[1]+" Wins the game")
+}
+//check vertical
+if ( sequares[1]==sequares[2] && sequares[2]==sequares[3]&&sequares[1]!="" ){
+    alert ("player "+sequares[1]+" Wins the game")
+}
+if ( sequares[1]==sequares[2] && sequares[2]==sequares[3]&&sequares[1]!="" ){
+    alert ("player "+sequares[1]+" Wins the game")
+}
+if ( sequares[1]==sequares[2] && sequares[2]==sequares[3]&&sequares[1]!="" ){
+    alert ("player "+sequares[1]+" Wins the game")
 }
 
