@@ -1,4 +1,6 @@
 
+
+
 let x= true; // true means X turn
 const insert =(id)=>{
     let p= document.getElementById(id)
@@ -10,5 +12,9 @@ const insert =(id)=>{
         p.innerHTML="O"
          x=!x
     }
-    return id;
+}
+const checkWinner =()=>{
+    for(let i =0;i<9;i++){
+     sequares[i]=document.getElementById('A'+i).innerHTML;
+    }
 }
