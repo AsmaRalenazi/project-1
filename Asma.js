@@ -106,7 +106,7 @@ insert=(id)=>{
     checkWinner()
 }
 
-
+    
 reset=(A,B,C)=>{
     document.getElementById('A'+A).style.color='#ff0000';
     document.getElementById('A'+B).style.color='#ff0000';
@@ -159,11 +159,12 @@ if ( sequares[3]==sequares[5] && sequares[5]==sequares[7]&&sequares[3]!="" ){
     alert ("player "+sequares[3]+" Wins the game ツ")
     reset(3,5,7);
 }
-// if(is3(row1)&&is3(row2) &&
-//     is3(row3)&&is3(col1)&&
-//     is3(col2)&&is3(col3)&&
-//     is3(sql1)&&is3(sql2))
-alert ("No Winner")
+if(sequares[1]!==''&&sequares[2]!==''&&sequares[3]!==''&&
+sequares[5]!==''&&sequares[6]!==''&&sequares[7]!==''&&
+sequares[8]!==''&&sequares[9]!==''){
+
+        alert ("No Winner")
+    }
 
 }
 //❤
