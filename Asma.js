@@ -166,6 +166,8 @@ sequares[8]!==''&&sequares[9]!==''){
         alert ("No Winner")
     }
 
+
+
 }
 //❤
 //➶

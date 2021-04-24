@@ -1,6 +1,6 @@
 body{
     background-color: rgb(211, 211, 211);
-
+    /* background-image:url("fony_04_small.png");  */
 }
 .p{
     font-family: Berlin Sans FB;
@@ -42,8 +42,21 @@ align-items: center;
     color: rgb(66, 78, 75);
     border-radius:20px;
     font-family: Berlin Sans FB;   
+    box-shadow:#383634 5px 15px 15px;
+    background-image:linear-gradient(45deg,#60a3bc,#38ada9
+    ,#0a3d62,#82ccdd,#78e08f,#079992,#b8e994);
+    background-size: 500px;
 }
 #restart:hover{
    background-color: rgb(163, 133, 10);
-   border:solid 3px #000
+   border:solid 3px #000;
+   animation:hover 4s infinite
+}
+@keyframes hover{
+    0%{
+background-position: right;
+    }
+    100%{
+background-position: left;
+}
 }
