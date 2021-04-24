@@ -102,7 +102,7 @@ insert=(id)=>{
         b.innerHTML="❤"
         turn=!turn
     }
-
+ 
     checkWinner()
 }
 
@@ -113,8 +113,8 @@ reset=(A,B,C)=>{
     document.getElementById('A'+C).style.color='#ff0000';  
 }
 
-setTimeout =(function(){
-    location.reload() },2000);  
+// setTimeout =(function(){
+//     location.reload() },1000);  
 
 
 let sequares=[];
