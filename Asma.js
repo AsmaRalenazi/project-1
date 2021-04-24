@@ -19,7 +19,18 @@ clickGame=()=>{
     result[index]='x'
 }
 
-//horizontal
+
+chickResult=(str)=>{
+return str==='⤲⤲⤲' ||str ==='❤❤❤'
+}
+
+is3=(str)=>{
+    return str.length===3;
+
+}
+
+getResult=()=>{
+    //horizontal
 let row1=result[0]+result[1]+result[2]
 let row2=result[3]+result[4]+result[5]
 let row3=result[6]+result[7]+result[8]
@@ -33,16 +44,6 @@ let col3=result[2]+result[5]+result[8]
 let sql1=result[0]+result[4]+result[8]
 let sql2=result[2]+result[4]+result[6]
 
-chickResult=(str)=>{
-return str==='⤲⤲⤲' ||str ==='❤❤❤'
-}
-
-is3=(str)=>{
-    return str.length===3;
-
-}
-
-getResult=()=>{
     if(chickResult(row1)){
         return'you win'
     }
