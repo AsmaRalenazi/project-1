@@ -7,6 +7,11 @@ let result =[
 //0  1  2
 //3  4  5
 //6  7  8
+let 
+clickGame=()=>{
+    document.getElementById(index).innerHTML="x"
+    result[index]='x'
+}
 
 //horizontal
 let row1=result[0]+result[1]+result[2]
@@ -23,9 +28,13 @@ let sql1=result[0]+result[4]+result[8]
 let sql2=result[2]+result[4]+result[6]
 
 chickResult=(str)=>{
-return str.toupperCase()==='xxx' ||str.toupperCase() ==='ooo'
+return str==='⤲⤲⤲' ||str ==='❤❤❤'
 }
 
+is3=(str)=>{
+    return str.length===3;
+
+}
 
 getResult=()=>{
     if(chickResult(row1)){
@@ -47,7 +56,11 @@ getResult=()=>{
     }
     if(chickResult(sql2)){
         return'you win'
-    }
+    }if (is3(row1)&&is3(row2) &&
+    is3(row3)&&is3(col1)&&
+    is3(col2)&&is3(col3)&&
+    is3(sql1)&&is3(sql2)
+    )
     return "No Winner"
 
 }
