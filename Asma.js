@@ -7,8 +7,14 @@ let result =[
 //0  1  2
 //3  4  5
 //6  7  8
-let 
+let random =Math.round(Math.random());
+let starter= random === 0?'x':'o';
+let p1 =document.getElementById('p1').innerHTML= random === 0?'x':'o';
+let p2 =document.getElementById('p2').innerHTML= random === 0?'o':'x';
 clickGame=()=>{
+    if(document.getElementById(index).innerHTML){
+        return;
+    }
     document.getElementById(index).innerHTML="x"
     result[index]='x'
 }
