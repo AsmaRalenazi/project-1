@@ -30,10 +30,10 @@ align-items: center;
 
  width:120px;
  height:120px;
- background-color: rgb(144, 175, 166);
+ background-color:rgb(40, 134, 138);
  margin:3px;
  font-size:100px;
- color:rgb(163, 133, 10);
+ color:rgb(1, 2, 51);
  float: left;
  text-align:center;
 }
@@ -46,16 +46,15 @@ align-items: center;
     font-size:30px;
     background-color:rgb(202, 204, 181);
     display:inline;
-    color: rgb(66, 78, 75);
+    color: rgb(59, 73, 70);
     border-radius:20px;
     font-family: Berlin Sans FB;   
-    box-shadow:#696969 5px 15px 15px;
+    box-shadow:#585757 5px 15px 15px;
     background-image:linear-gradient(45deg ,#ff6b81,#38ada9,
     #f0932b,#82ccdd,#fd79a8,#079992,#FEA47F);
     background-size: 500px;
 }
 #restart:hover{
-   background-color: rgb(163, 133, 10);
    border:solid 3px #000;
    animation:hover 4s infinite
 }
