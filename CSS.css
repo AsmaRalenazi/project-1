@@ -7,9 +7,13 @@ body{
     font-size:20px;
     padding-left:600px;
 }
+#ha{
+color:red
+
+}
 #a{
 padding-left:500px; 
-padding-top:80px;
+padding-top:50px;
 width:400px;;
 height:400px;
 align-items: center;
@@ -21,7 +25,7 @@ align-items: center;
  height:120px;
  background-color: rgb(144, 175, 166);
  margin:3px;
- font-size:120px;
+ font-size:100px;
  color:rgb(163, 133, 10);
  float: left;
  text-align:center;
