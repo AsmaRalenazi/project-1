@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(211, 211, 211);
+    
 }
+
 #a{
 padding-left:500px; 
 padding-top:150px;
@@ -18,7 +20,6 @@ align-items: center;
  font-size:120px;
  color:rgb(163, 133, 10);
  float: left;
- cursor: pointer;
  text-align:center;
 }
 #restart{
@@ -32,10 +33,9 @@ align-items: center;
     display:inline;
     color: rgb(66, 78, 75);
     border-radius:20px;
-    font-family: Berlin Sans FB;
-    
+    font-family: Berlin Sans FB;   
 }
 #restart:hover{
    background-color: rgb(163, 133, 10);
+   border:solid 3px #000
 }
-
