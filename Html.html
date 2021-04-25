@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tec Tac Toe</title>
-    
+    <link rel="stylesheet" type="text/css" href="CSS.css" />
 </head>
 <body>
 
-    <link rel="stylesheet" type="text/css" href="CSS.css" />
    
-<h4 class="vs">'⤲' VS '❤'</h4>    
-<p class="p">Player 1: ⤲</p>
-<p class="p">Player 2:❤</p>
+ <div class="vs"> 
+   <h4>'⤲' VS '❤'</h4>   
+</div>
 
+<div class="p">
+<p>Player 1: ⤲</p>
+<p>Player 2:❤</p>
+</div>
 
 <div id="a">
 
@@ -30,8 +33,10 @@
     
     </div> 
     
+<div  id ="restart_1">
+<button id="restart" onclick='window.location.reload()'>Restart</button>
+</div>
 
-<button id ="restart"onclick='window.location.reload()'>Restart</button>
 <script src="Asma.js"></script>
 </body>
 </html>
