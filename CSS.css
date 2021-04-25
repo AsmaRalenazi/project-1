@@ -66,70 +66,9 @@ background-position: right;
 background-position: left;
 }
 }
+
   
-
- @media all and (min-width: 800px) {
-    .sequare{
-        width:100px;
-        height:100px;
-        background-color:rgb(206, 122, 122);
-        margin:3px;
-        font-size:80px;
-        color:rgb(2, 2, 51);
-        text-align:center;
-       }
- 
-       .p{
-        font-family: Berlin Sans FB;
-        font-size:20px;
-        padding-left:300px;
-    }
-
-       .vs{
-        margin-top:20px;
-        margin-bottom:20px;
-        padding-left:300px;
-        font-size:35px;
-        font-family: 'Gill Sans';
-    }
-
-#a{
-    padding-left:200px; 
-    width:400px;;
-    height:400px;
-    align-items: center;
-    }
-    #restart{
-     
-        padding-left:100px;
-        text-align:center;
-        margin-left:210px;
-        padding-right:100px;
-        font-size:30px;
-        display:inline;
-        color: rgb(59, 73, 70);
-        border-radius:30px;
-        font-family: Berlin Sans FB;   
-        box-shadow:#3a3939 5px 15px 15px;
-        background-image:linear-gradient(45deg ,#ff6b81,#38ada9,
-        #f0932b,#82ccdd,#fd79a8,#079992,#FEA47F);
-        background-size:300px;
-
-    }
-    #restart:hover{
-       border:solid 3px #000;
-       animation:hover 4s infinite
-    }
-    @keyframes hover{
-        0%{
-    background-position: right;
-        }
-        100%{
-    background-position: left;
-        }
-    }
-  
-  @media all and (max-width: 400px) {
+  @media all and (max-width:400px) {
     .sequare{
         width:100px;
         height:100px;
@@ -190,4 +129,3 @@ background-position: left;
         }
     }
   }
-}
