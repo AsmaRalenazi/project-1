@@ -66,3 +66,88 @@ background-position: right;
 background-position: left;
 }
 }
+  
+
+ @media all and (min-width: 800px) {
+    .sequare{
+        width:100px;
+        height:100px;
+        background-color:rgb(5, 61, 99);
+        margin:3px;
+        font-size:80px;
+        color:rgb(246, 246, 250);
+        float: left;
+        text-align:center;
+       }
+  
+#a{
+    padding-left:500px; 
+    padding-top:20px;
+    width:400px;;
+    height:400px;
+    align-items: center;
+    }
+  }
+  
+  
+  @media all and (max-width: 400px) {
+    .sequare{
+        width:100px;
+        height:100px;
+        background-color:rgb(10, 12, 36);
+        margin:3px;
+        font-size:80px;
+        color:rgb(246, 246, 252);
+        text-align:center;
+       }
+ 
+       .p{
+        font-family: Berlin Sans FB;
+        font-size:20px;
+        padding-left:200px;
+    }
+
+       .vs{
+        margin-top:50px;
+        margin-bottom:20px;
+        padding-left:120px;
+        font-size:35px;
+        font-family: 'Gill Sans';
+    }
+
+#a{
+    padding-left:60px; 
+    width:400px;;
+    height:400px;
+    align-items: center;
+    }
+    #restart{
+        
+        padding-bottom:10px;
+        padding-left:100px;
+        text-align:center;
+        margin-left:100px;
+        padding-right:100px;
+        font-size:20px;
+        display:inline;
+        color: rgb(59, 73, 70);
+        border-radius:20px;
+        font-family: Berlin Sans FB;   
+        box-shadow:#3a3939 5px 15px 15px;
+        background-image:linear-gradient(45deg ,#ff6b81,#38ada9,
+        #f0932b,#82ccdd,#fd79a8,#079992,#FEA47F);
+        background-size:300px;
+    }
+    #restart:hover{
+       border:solid 3px #000;
+       animation:hover 4s infinite
+    }
+    @keyframes hover{
+        0%{
+    background-position: right;
+        }
+        100%{
+    background-position: left;
+        }
+    }
+}
